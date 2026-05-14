@@ -1,0 +1,6 @@
+services:
+  agent:
+    build: .
+    env_file: .env
+    environment:
+      - MCP_SERVER_URL=https://api.githubcopilot.com/mcp/
